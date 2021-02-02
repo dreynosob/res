@@ -1,0 +1,260 @@
+*{
+    font-family: 'Noto Serif', serif, Courier, monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: black;
+}
+.nav_ul{
+    display: flex;
+   
+}
+.nav_ul li{
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    
+}
+.nav_ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.nav_ul li a:hover{
+    background-color: #e6193b;
+}
+.nav_ul li a:active{
+  color: black;
+}
+.nav_ul li a:visited{
+    color: yellow;
+}
+.nav_ul .logo{
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .nav_ul {
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .nav_ul :nth-child(1){
+        order: 1;
+    }
+    .nav_ul :nth-child(2){
+        order: 2;
+    }
+    .nav_ul :nth-child(3){
+        order: 3;
+    }
+    .nav_ul :nth-child(4){
+        order: 4;
+    }
+ 
+    .nav_ul li{
+       
+        padding: 10px;
+    }
+    
+    .nav_ul li a{
+        font-size:10px;
+       
+    }
+  }
+  .bloqueizquierdo h1{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(22, 22, 22);
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+.bloqueizquierdo a {
+    display:inline-block;
+    padding: 20px;
+}
+
+.bloqueizquierdo p{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    
+}
+/*
+.contenedorimagenes h2{
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(240, 34, 34);
+    color: white;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+}*/
+.contenedorimagenes h2:hover{
+    color: pink;
+}
+.contenedorimagenes  {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.contenedorimagenes a:hover{
+    transform: translateY(-5px);
+	box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 600px) {
+    .contenedorimagenes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .contenedorimagenes a:hover{
+      
+        transform: translateY(10px);
+   
+    }
+    .bloqueizquierdo p{
+        font-size: 12px;
+        text-align: left;
+      
+    }
+}
+.partefinal {
+   
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.partefinal:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 8px rgb(0, 0, 0, 0.5);
+    background-color: white;
+}
+.partefinal2 p{
+    font-size:16px;
+    padding: 20px;
+
+}
+.partefinal2 h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+}
+.partefinal .grid{
+    position: relative;
+    padding-left: 90px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    bottom: 0;
+}
+.partefinal .grid p{
+box-shadow: 1px 1px 5px black;
+border-radius: 20px;
+background-color: rgba(189, 183, 183, 0.534);
+padding: 10px;
+}
+@media only screen and (max-width: 800px) {
+    .partefinal .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .partefinal .grid {
+        padding-left: 10px;
+        margin: 10px;
+       
+    }
+    .partefinal:hover{
+        box-shadow: none;
+        transform: none;
+    }
+    
+    .partefinal .grid p{
+        font-size: 12px;
+      
+        text-align: left;
+    }
+    .partefinal .grid img{
+      margin: auto;
+    }
+    .partefinal .partefinal2 p{
+        font-size: 12px;
+      
+    }
+}
+.partefinal .grid img{
+    box-shadow: 1px 1px 4px black;
+}
+
+.piepagina {
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+  
+}
+.piepagina .direccion{
+    color: white;
+    text-align: center;
+}
+.piepagina .direccion h4{
+    font-size: 1.5em;
+}
+.piepagina .direccion p{
+    font-size: .8em;
+    color: rgba(255, 255, 255, 0.815);
+}
+.piepagina .contacto{
+    color: #ffffff;
+    position: relative;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+.piepagina .contacto li{
+    display: inline-block;
+    padding: 5px;
+
+}
+.piepagina .contacto a{
+    color: white;
+    text-decoration: none;
+    font-size: .6em;
+    color:rgba(255, 255, 255, 0.815); 
+}
+.piepagina .contacto a:hover{
+    color: red;
+    
+}
+
+.piepagina .contacto i{
+    padding: 5px;
+    color:rgba(255, 255, 255, 0.815); 
+    font-size: .8em;
+}
+.piepagina .contacto i:hover{
+    color: red;
+}
+.piepagina .up{
+    position: relative;
+}
+
+.piepagina .up i{
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.piepagina .up i:hover{
+    color: red;
+}
+
+
+
+  
