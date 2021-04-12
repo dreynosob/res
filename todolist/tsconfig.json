@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "target": "ES6",
+    "allowJs": true, 
+      "noImplicitAny": true,
+      "removeComments": false,
+      "preserveConstEnums": true,
+      "sourceMap": false
+  },
+  "files": [
+      "model.ts", "service.ts", "controller.ts" 
+  ],
+  "include": [
+      "Todo/**/*", 
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ]
+}
