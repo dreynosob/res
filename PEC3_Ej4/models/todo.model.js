@@ -4,15 +4,6 @@
  * Manages the data of the application.
  */
 /*
-interface Itodo {
-  id: string;
-  text: string;
-  complete: boolean;
-}
-
-class Todo implements Itodo {
-  constructor(public id: string, public text: string, public complete: boolean){}
-}
 
 
 */ 
